@@ -26,11 +26,11 @@ $(document).ready(function() {
 
         console.log(JSON.stringify(userInput))
 
-        $.post("/api/friends", userInput)
+        $.post("/api/friend", userInput)
         .done(function(data) {
             console.log("user data: ", data);
             $("#matchName").text(data.name);
-            $("#matchImg").att("src", data.photo);
+            $("#matchImg").attr("src", data.photo);
             $("#finalModal").modal("toggle");
         });
     });

@@ -7,7 +7,7 @@ module.exports = function(app) {
         res.json(friendsData);
     });
 
-    app.get("/api/friends", function(req, res) {
+    app.post("/api/friend", function(req, res) {
         var userData = req.body;
         var sumDiff = 0;
         var scoresDiff = [];
