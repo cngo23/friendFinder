@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder Survey Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+      <div class="jumbotron">
+          <h1 class="text-center"><span class="glyphicon glyphicon-friend"></span> Friend Finder</h1>
+          <hr>
+          <h2 class="text-center">Match with a friend! Fill out the survey!</h2>
+          <br>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="panel-title"><strong>About You</strong></h1>
+                <h6>Please fill out all the fields:</h6>
+            </div>
+            <br>
+            <div class="panel-body">
+              <form role="form">
+                  <div class="form-group">
+                      <label for="userName"><h3><strong>Name</strong></h3></label>
+                      <input type="text" class="form-control required" id="userName">
+                    </div>
+                    <div class="form-group">
+                        <label for="userPhoto"><h3><strong>Photo URL</strong></h3></label>
+                        <input type="text" class="form-control required" id="userPhoto">
+                      </div>
+
+                      <div class="form-group">
+                          <h3><strong>Question 1</strong></h3>
+                          <h5>You enjoy marvel movies.</h5>
+                           <select id="question1" required>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3" selected>3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                          </div>
+
+                          <div class="form-group">
+                              <h3><strong>Question 2</strong></h3>
+                              <h5>You love sports and physical activities.</h5>
+                               <select id="question2" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 3</strong></h3>
+                              <h5>You enjoy traveling and seeing the world.</h5>
+                               <select id="question3" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 4</strong></h3>
+                              <h5>You prefer dogs over cats.</h5>
+                               <select id="question4" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 5</strong></h3>
+                              <h5>You love eating all kinds of foods.</h5>
+                               <select id="question5" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 6</strong></h3>
+                              <h5>You enjoy drinking alcohol.</h5>
+                               <select id="question6" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 7</strong></h3>
+                              <h5>You like sneakers.</h5>
+                               <select id="question7" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 8</strong></h3>
+                              <h5>You love to go out and party. Social butterfly.</h5>
+                               <select id="question8" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 9</strong></h3>
+                              <h5>You are open to try anything.</h5>
+                               <select id="question9" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+                
+                              <div class="form-group">
+                              <h3><strong>Question 10</strong></h3>
+                              <h5>You believe in ghosts.</h5>
+                               <select id="question10" required>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              </div>
+
+                              <button id="submitButton" type="submit" class="btn btn-primary submit">Submit</button>
+              </form>
+              <br>
+            </div>
+          </div>
+
+          
+        </div>
+        <div id="finalModal" class="modal fade" role="dialog" tableindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 id="modalTitle">Your best match is!</h2>
+              </div>
+              <div class="modal-body">
+                  <h2 id="matchName"></h2>
+                  <img id="matchImg" class="img-thumbnail img-fluid rounded" src="" alt="">
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+    
+</body>
+
+</html>
+

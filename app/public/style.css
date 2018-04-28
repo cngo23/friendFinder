@@ -1,0 +1,35 @@
+/* body {
+    background-image: url("http://hdwpro.com/wp-content/uploads/2016/04/Sports-Basketball-Wallpaper.jpg");
+    /* Full height */
+    /* height: 100%; */
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */ 
+
+
+#mainContent {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+body {
+ background-image: url("http://celebwallpapers.net/wp-content/uploads/2017/11/friends-wallpaper-friends-wallpapers-high-quality-friends-backgrounds-and-of-friends-wallpaper.jpg");
+ /* Full height */
+ height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1, h3 {
+    color: #B267D5;
+}
+
+#footer {
+    color:red;
+}
+
